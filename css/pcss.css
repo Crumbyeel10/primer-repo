@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+    flex-direction: column;
+
+
+}
+.nav-var{
+    display: flex;
+    padding: 20px;
+    align-items: space-around;
+    gap: 28px;
+    
+}
+
+.card  {
+    
+    width: 360px;
+    height: 600px;
+    background: #fff;
+    
+}
+.icon-card{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
