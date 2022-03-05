@@ -4,33 +4,143 @@
     box-sizing: border-box;
 }
 body{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #fff;
-    flex-direction: column;
+    flex-direction: column; */
 
 
 }
+
 .nav-var{
+    background-color: aliceblue;
     display: flex;
-    padding: 20px;
-    align-items: space-around;
-    gap: 28px;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.247);
+    
+}
+.img-nav{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 80px;
+    margin-left: 10px;
+    
+
+}
+
+.nav-menu{
+    display: flex;
+    padding: 1.5rem;
+    gap: 30px;
+    align-items: center;
+        
+}
+.nav-menu li{
+    
+    text-decoration: none;
+    list-style: none;
+        
+}
+
+.nav-menu a{
+    
+    text-decoration: none;
+    color: black;
+        
+}
+
+
+.card{
+
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    
+    
+    
     
 }
 
-.card  {
+.container-card {
     
-    width: 360px;
-    height: 600px;
-    background: #fff;
+    height: 620px;
+    width: 450px;
+    border-width: 0.5px;
+    border: 2px solid #dad9dffb;
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.267);
+    
     
 }
+
 .icon-card{
-    
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
+    overflow: hidden; 
+    gap: 20px;
+    padding: 8px;
+    align-items: center;
+    
+}
+
+.icon-card .img-nav{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border: 1px solid;
+    
+}
+
+.img-card {
+    
+    width: 100%;
+    
+    
+}
+
+.description-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.description-card a{
+    margin-bottom: 3px;
+    text-decoration: none;
+    color: black;
+    
+}
+.icons-interaction{
+    display: flex;
+    gap: 05px;
+    margin-left: 1pxpx;
+    
+}
+.icon{
+    font-size: 28px;
+    
+}
+
+.message{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    gap: 12px;
+    
+
+}
+.message input  {
+    border: 2px solid #7d7d7eaf;
+    border-radius: 10px;
+    margin-bottom: 2px;
 }
